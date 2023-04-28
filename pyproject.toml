@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "iambic-github"
+version = "0.1.0"
+description = ""
+authors = ["Noq Software <hello@noq.dev>"]
+readme = "README.md"
+packages = [{include = "iambic_github"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+iambic-core = "^0.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
